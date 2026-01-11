@@ -1,9 +1,9 @@
 "AppBuild"
 {
 	"AppID" "<app id>"
-	"Desc" "release quick-build" // internal description for this build
+	"Desc" "quickbuild script" // internal description for this build
 	"SetLive" "<name of beta branch>"
-	"ContentRoot" "..\_release\" // content root folder relative to this script file
+	"ContentRoot" "..\_build\" // content root folder relative to this script file
 	"BuildOutput" "..\build_output\"
 	"verbose" "0"
 	"preview" "0"
