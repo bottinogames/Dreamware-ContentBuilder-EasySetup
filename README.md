@@ -19,4 +19,6 @@ There are a few lines of text you'll need to change in order for this to work fo
 
 After those edits have been made, `login.bat` will also need to be run at least once on any computer that needs to use `quickbuild.bat`. This will ensure that the login credentials for steamcmd are properly cached.
 
-And you're all done! You can now freely run `quickbuild.bat` at any time, and it will build and push your game to Steam. Easy peasy!
+## Use
+
+After you've finished making the necessary edits to the script files, simply place your build contents in the `_build` folder, and run `quickbuild.bat`. Your build will build and uploaded to Steam!
