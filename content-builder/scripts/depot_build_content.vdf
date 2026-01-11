@@ -17,5 +17,8 @@
 		// be included.
 		"Recursive" "1"
 	}
-	"FileExclusion" "*_DoNotShip*" // exclude folder and files with "_DoNotShip" in their path
+	
+	// exclude folder and files with "_DoNotShip" in their path
+	// this mostly exists for the Unity Burst Debug folder
+	"FileExclusion" "*_DoNotShip*" 
 }
