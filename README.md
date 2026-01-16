@@ -11,7 +11,7 @@ Download the repository and drop the `content-builder` folder wherever you'd lik
 ## Setup
 
 There are a few lines of text you'll need to change in order for this to work for your project, so I'll list those out here:
- - `login.bat`: You'll need to change `<username>` to the steam username that will be used to login to steam.
+ - `login.bat`: You'll need to change `<username>` to the steam username that will be used to login to steamworks.
  - `quickbuild.bat`: Again, `<username>` here will need to be changed to the steam username to be used for login.
  - `scripts\depot_build_content.vdf`: You'll need to set the `<depot id>` to the ID of the depot you'll be building to, as found in Steamworks.
  - `scripts\quickbuild.vdf`: Here `<app id>` and `<depot id>` will need to be set to their corresponding ID's as shown in Steamworks. `<branch name>` should be set to the name of the beta branch you'd like to have the build automatically pushed to.
